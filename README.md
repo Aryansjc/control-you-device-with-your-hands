@@ -18,16 +18,16 @@ Powered by the MediaPipe Tasks API, OpenCV, and a One Euro Filter adaptive smoot
 
 ---
 
-## Hand Gesture Controls
+## ✋ Hand Gesture Controls
 
 | Gesture | Finger Pose | Action | Details |
 | :--- | :--- | :--- | :--- |
-| **Move Cursor** | Index finger extended | Move | Cursor navigation across full screen |
-| **Left Click** | Index + Middle tips pinched | Left Click | Edge-triggered single left click |
-| **Double Click** | Two quick Index + Middle pinches | Double Click | Double left-click within 0.40s window |
-| **Right Click** | Index + Middle + Ring extended | Right Click | Edge-triggered after 3 confirmation frames |
-| **Scroll** | Index + Middle extended apart | Scroll | Move hand up/down to scroll (wrist tracking) |
-| **Drag & Drop** | Index extended + Thumb pinched to Index tip | Drag & Drop | Holds left click down until pinch is released |
+| ☝️ **Move Cursor** | Index finger extended | **Move** | Smooth cursor navigation across the full screen |
+| ✌️ **Left Click** | Index + Middle tips **pinched together** | **Left Click** | Edge-triggered single left click |
+| ✌️✌️ **Double Click** | Two quick index + middle pinches | **Double Click** | Double left-click within `0.40s` window |
+| 🤟 **Right Click** | Index + Middle + Ring fingers extended | **Right Click** | Edge-triggered after 3 confirmation frames |
+| ✌️ **Scroll** | Index + Middle extended **apart** | **Scroll** | Move hand up/down to scroll (tracked via wrist) |
+| 👌 **Drag & Drop** | Index extended + **Thumb pinched to Index tip** | **Drag & Drop** | Holds left click down until pinch is released |
 
 ---
 
@@ -169,3 +169,7 @@ virtual_mouse/
 - **Mac Cursor Not Moving**: Verify Accessibility permissions under System Settings -> Privacy & Security -> Accessibility for your Terminal app.
 
 ---
+
+## 📜 License
+
+MIT License — Feel free to modify and use in your own projects!
